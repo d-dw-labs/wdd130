@@ -1,0 +1,51 @@
+header {
+    margin: 30px;
+    background-color: #353;
+    color: wheat;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 2px dotted #393;
+}
+
+main {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+    color: #353;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px #333;
+}
+
+h2 {
+    text-align: left;
+    margin: 10px;
+    border-bottom: 1px dotted black;
+}
+
+section {
+    display: block;
+    height: auto;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: #999;
+    border: 1px solid black;
+}
+
+footer {
+    margin: 10px;
+    background-color: #353;
+    color: wheat;
+    text-align: center;
+    font-size: larger;
+    border: 1px dotted #393;
+}
