@@ -1,0 +1,85 @@
+:root {
+  --primary-color: #0b4f6c;   /* deep river blue */
+  --secondary-color: #01baef; /* bright water blue */
+  --accent1-color: #20232a;   /* near-black for text */
+  --accent2-color: #f5f7f8;   /* off-white */
+  --heading-font: "Montserrat", Arial, sans-serif;
+  --body-font: "Open Sans", Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--accent1-color);
+}
+
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+/* Header nav links */
+nav a {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-right: 16px;
+}
+
+.socialmedia a {
+  text-decoration: none;
+}
+
+/* Hero overlay */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 60%;
+  background-color: var(--accent2-color);
+  border-left: 6px solid var(--secondary-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
+  margin: 0 0 8px 12px;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
