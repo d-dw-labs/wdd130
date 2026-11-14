@@ -19,10 +19,11 @@ body {
 }
 
 header,
-main,
 footer {
-  width: 840px;
+  width: auto;
   margin: 0 auto;
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
 }
 
 h1,
@@ -42,7 +43,7 @@ article {
 
 /* Header nav links */
 nav a {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-weight: 600;
   margin-right: 16px;
 }
