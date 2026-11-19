@@ -18,6 +18,11 @@ nav ul {
     align-items: center;
 }
 
+nav li {
+    justify-content: stretch;
+    flex-direction: column;
+}
+
 nav a {
     display: block;
     color: #fff;
