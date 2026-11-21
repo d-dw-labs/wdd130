@@ -69,6 +69,7 @@ header nav a {
 }
 
 header img {
+  float: right;
   padding: 10px;
   justify-self: center;
 }
