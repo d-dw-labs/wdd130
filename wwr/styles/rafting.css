@@ -69,13 +69,13 @@ header nav a {
 }
 
 header img {
-  float: right;
   padding: 10px;
   justify-self: center;
 }
 
 /* Hero */
 .hero {
+  float: right;
   position: relative;
   margin-bottom: 10px;
   border: 2px solid var(--secondary-color);
