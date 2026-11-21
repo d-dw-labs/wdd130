@@ -60,11 +60,11 @@ header {
 }
 
 header nav a {
-  color: var(--secondary-color);
+  color: white;
   font-weight: 600;
   margin-right: 16px;
   text-decoration: none;
-  border: 2px solid var(--secondary-color);
+  border: 2px solid white;
   padding: 10px;
 }
 
@@ -183,7 +183,8 @@ footer {
 footer p {
   grid-column: 2;
   text-align: center;
-  color: var(--secondary-color);
+  align-content: center;
+  color: white;
 }
 
 .socialmedia {
