@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+caption {
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding: 8px 12px;
+}
+
+th,
+td {
+    border: 1px solid gray;
+    text-align: center;
+    padding: 8px 12px;
+}
+
+thead tr,
+tfoot tr {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
