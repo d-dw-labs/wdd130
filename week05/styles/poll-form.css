@@ -56,7 +56,7 @@ textarea {
 }
 
 label {
-    text-align: right;
+    text-align: left;
     padding-right: 2rem;
 }
 
@@ -94,12 +94,12 @@ button:focus-visible {
 }
 
 .label-wide {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 2fr;
     margin: 1rem 0;
 }
 
 .label-narrow {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
     margin: 2rem;
 }
 
